@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #e4a228;
+}
+.container .eyes-warp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 31%;
+  height: 30%;
+  transform: translate(-50%, -50%);
+}
+.container .eyes-warp .eye-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 19px 10px #f3c46e;
+}
+.container .eyes-warp .eye-outer .eye-inner {
+  width: 35%;
+  height: 35%;
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 10px #ada89e;
+}
